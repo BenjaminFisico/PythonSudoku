@@ -89,14 +89,14 @@ def isPosible(tablero,fil,col,num):
 def solve(tablero):
     """ Busca una posible solución para el sudoku dado.
         -Este metodo es recursivo y utiliza la fuerza bruta para encontrar la dicha solución.
-        -El álgoritmo va casilla por casilla probando si es posible poner cada número,
+        -El algoritmo va casilla por casilla probando si es posible poner cada número,
          en el momento en que encuentra que poner un número en una casilla es posible, pasa a la siguiente.
          Si en una casilla se recorren los números posibles(del 1 al 9) sin que ningúno sea posible entonces
          significa que el número correcto para dicha casilla ya fue colocado en una de las anteriores,
          por lo tanto regresa y verifica si en una de las casillas anteriores es posible poner otro número.
          Si en ningúna de las casillas anteriores es posible poner otro número entonces el sudoku no tiene solución.
         -Este metodo aprobecha el metodo isPosible(): que se encuentra en este mismo módulo.
-        -El hecho de que este álgoritmo use la fuerza bruta implica que dependiendo de la forma del problema,
+        -El hecho de que este algoritmo use la fuerza bruta implica que dependiendo de la forma del problema,
          va a tardar o mucho o muy poco en resolver el sudoku.
 
         Args:
