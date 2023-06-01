@@ -134,5 +134,7 @@ while user_input != "exit":
         print("     -El primer número corresponde a la fila en la que se quiere colocar un número, ")
         print("     el segundo a la columna y el tercero es el nuevo número a colocar.")
         print("     -Por ejemplo: 5 7 3 coloca el número 3 donde se cruzan la fila 5 y la columna 7")
+        print("3. Ingresa 'solucionar' para que el algoritmo de backtraking resuelva el sudoku ")
+        print("4. Ingresa 'reiniciar' para empezar un nuevo sudoku")
 
         input("--- Preciona [ ENTER ] para continuar ---")
