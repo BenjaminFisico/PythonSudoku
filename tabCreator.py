@@ -53,7 +53,7 @@ def randomLst(list_a):
 
 def generateProblem(celdasVacias = 50):
     """ Genera un nuevo sudoku aleatorio.
-        -Este álgoritmo es de invención propia por lo que no aseguro que sea el mas eficiente,
+        -Este algoritmo es de invención propia por lo que no aseguro que sea el mas eficiente,
          simplemente quise agregar la suficiente aleatoriedad sin que genere sudokus imposibles de resolver.
         -El proceso consiste en:
          1. Crear una fila aleatoria para los números superiores del tablero.
